@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+}
+
+/* .has-bg-img {
+    background-color: black;
+    background: url(./pics/clean\ coffee.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.footer {
+    padding-top: 8%;
+    background-color: white;
+}
