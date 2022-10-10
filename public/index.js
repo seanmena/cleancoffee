@@ -1,3 +1,5 @@
+// const { application } = require("express");
+
 console.log("this is touching");
 
 aboutMe = $("#about-notif");
@@ -12,7 +14,13 @@ $(".navbar-burger").click(function () {
   $(".navbar-menu").toggleClass("is-active");
 });
 
-$("#about-x").on("click", function () {
-  aboutMe.hide();
-  $("#hero-title").show();
+$(".shop-btn").click(function () {
+  // console.log("btn-works");
+  location.href = "./shop.html";
 });
+
+// dont need this
+// $("#about-x").on("click", function () {
+//   aboutMe.hide();
+//   $("#hero-title").show();
+// });
