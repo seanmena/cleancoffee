@@ -4,9 +4,8 @@ Clean coffee its freaky fresh
 
 # Goal
 
-Create a webpage with HTML, CSS, jQuery, Bulma, Node, Express, and MySQL that is organized efficient and working.
+Create a webpage with HTML, CSS, jQuery, Bulma, Node, and Express that is organized efficient and working.
 
-# Design
+# Purpose
 
-Created rough mock up of design in Adobe Illustrator (attached below)
-![pic of template](./pics/clean%20coffee.jpg)
+Made this website to practice without react.

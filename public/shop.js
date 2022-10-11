@@ -1,9 +1,13 @@
 console.log("this is the shop touch");
 
-aboutMe = $("#about-notif");
+shopNo = $("#shop-notif");
+
+shopPage = $(".shop-page");
+
+shopPage.hide();
 // aboutMe.hide();
 
-$("#about-me").on("click", function () {});
+$("#shop-notif").on("click", function () {});
 
 // Check for click events on the navbar burger icon
 $(".navbar-burger").click(function () {
@@ -12,7 +16,8 @@ $(".navbar-burger").click(function () {
   $(".navbar-menu").toggleClass("is-active");
 });
 
-$("#about-x").on("click", function () {
-  aboutMe.hide();
+$("#shop-x").on("click", function () {
+  shopNo.hide();
   $("#hero-title").show();
+  shopPage.show();
 });

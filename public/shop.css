@@ -2,13 +2,6 @@ body, html {
     height: 100%;
 }
 
-/* .has-bg-img {
-    background-color: black;
-    background: url(./pics/coffeebeans.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-} */
-
 html{
     scroll-behavior: smooth;
 }
@@ -22,3 +15,33 @@ ul {
     background-color: white;
 }
 
+.shop-page {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.shop-img {
+    width: 50%;
+    padding: 5%;
+    float: left;
+}
+
+.shop-words {
+    color: black;
+    padding: 5%;
+}
+
+.words {
+     width: 50%;
+     float: right;
+     padding-top: 10%;
+}
+
+.shop-btn {
+    margin-left: 45%;
+    padding: 2%;
+    background-color: black;
+    border: white, 2px;
+    color: white;
+}

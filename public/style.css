@@ -3,8 +3,8 @@ body, html {
 }
 
 /* .has-bg-img {
-    background-color: black;
-    background: url(./pics/coffeebeans.jpg);
+
+    background: url(/pics/coffeebeans.jpg);
     background-repeat: no-repeat;
     width: 100%;
 } */
